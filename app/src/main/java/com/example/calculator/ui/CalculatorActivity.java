@@ -1,9 +1,11 @@
 package com.example.calculator.ui;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -16,10 +18,10 @@ import java.util.Map;
 
 public class CalculatorActivity extends AppCompatActivity implements CalculatorView {
 
+    private static final String KEY_INPUT = "input";
+    private static final String KEY_RESULT = "result";
     private TextView resultTxt, inputTxt;
-
     private CalculatorPresenter presenter;
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -31,7 +33,7 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
 
         presenter = new CalculatorPresenter(this, new CalculatorImplem());
 
-        Map <Integer, Integer> digits = new HashMap<>();
+        Map<Integer, Integer> digits = new HashMap<>();
         digits.put(R.id.button_0, 0);
         digits.put(R.id.button_1, 1);
         digits.put(R.id.button_2, 2);
@@ -118,6 +120,7 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
 
     }
 
+
     @Override
     public void showResult(String result) {
         resultTxt.setText(result);
@@ -138,4 +141,19 @@ public class CalculatorActivity extends AppCompatActivity implements CalculatorV
         return String.valueOf(inputTxt.getText());
     }
 
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putString(KEY_INPUT, inputTxt.getText().toString());
+        outState.putString(KEY_RESULT, resultTxt.getText().toString());
+        super.onSaveInstanceState(outState);
+
+        Log.d("CounterAct", "onSaveInstanceState");
+    }
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        inputTxt.setText(savedInstanceState.getString(KEY_INPUT));
+        resultTxt.setText(savedInstanceState.getString(KEY_RESULT));
+    }
 }

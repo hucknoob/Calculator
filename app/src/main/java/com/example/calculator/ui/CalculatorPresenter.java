@@ -42,7 +42,7 @@ public class CalculatorPresenter {
 
     public void onOperatorPressed(Operator operator) {
 
-        if(dotArg != null) {
+        if (dotArg != null) {
             argOne = Double.valueOf(view.getInput());
             dotArg = null;
         }
@@ -63,7 +63,7 @@ public class CalculatorPresenter {
         dotArg = argOne;
         argOne = 0.0;
         view.showInput(formator.format(dotArg) + ".");
-    //когда нажимается  точка на бираем не *10 а уменьшаем степень(10 в -2, 10 в -1)
+        //когда нажимается  точка на бираем не *10 а уменьшаем степень(10 в -2, 10 в -1)
 
     }
 
