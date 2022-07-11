@@ -1,5 +1,7 @@
 package com.example.calculator.ui;
 
+import android.util.Log;
+
 import com.example.calculator.model.Calculator;
 import com.example.calculator.model.Operator;
 
@@ -42,6 +44,7 @@ public class CalculatorPresenter {
 
     public void onOperatorPressed(Operator operator) {
 
+
         if (dotArg != null) {
             argOne = Double.valueOf(view.getInput());
             dotArg = null;
@@ -52,6 +55,7 @@ public class CalculatorPresenter {
                 argTwo = 0.0;
             }
             argOne = calculator.perform(argOne, argTwo, selectOperator);
+
             showFormattedResult(argOne);
         }
         argTwo = 0.0;//уже не null идет набор 2 элем
