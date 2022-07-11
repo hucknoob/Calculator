@@ -15,8 +15,26 @@
 
         <item name="fontFamily">@font/custom_font</item>
         <item name="android:background">#1E1B1B</item>
+        <item name="materialButtonStyle1">@style/CalculatorButton.GrayOne</item>
+        <item name="materialButtonStyle2">@style/CalculatorButton.GrayTwo</item>
+        <item name="materialButtonStyle3">@style/CalculatorButton.Orange</item>
+        <item name="materialButtonStyleLand1">@style/CalculatorButton.GrayOne.Land</item>
+        <item name="materialButtonStyleLand2">@style/CalculatorButton.GrayTwo.Land</item>
+        <item name="materialButtonStyleLand3">@style/CalculatorButton.Orange.Land</item>
 
     </style>
 
+    <style name="Theme.Calculator.V2">
+        <item name="fontFamily">@font/custom_font2</item>
+        <item name="materialButtonStyle3">@style/CalculatorButton.Orange.V2</item>
+        <item name="materialButtonStyleLand3">@style/CalculatorButton.Orange.Land.V2</item>
+    </style>
+
+    <style name="Theme.Calculator.V3">
+        <item name="fontFamily">@font/custom_font3</item>
+        <item name="materialButtonStyle3">@style/CalculatorButton.Orange.V3</item>
+        <item name="materialButtonStyleLand3">@style/CalculatorButton.Orange.Land.V3</item>
+
+    </style>
 
 </resources>

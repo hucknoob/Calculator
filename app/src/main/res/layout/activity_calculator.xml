@@ -49,7 +49,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_AC"
-                style="@style/CalculatorButton.GrayOne"
+                style="?attr/materialButtonStyle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -58,7 +58,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_plus_minus"
-                style="@style/CalculatorButton.GrayOne"
+                style="?attr/materialButtonStyle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -67,7 +67,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_precent"
-                style="@style/CalculatorButton.GrayOne"
+                style="?attr/materialButtonStyle1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -76,7 +76,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_divide"
-                style="@style/CalculatorButton.Orange"
+                style="?attr/materialButtonStyle3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -85,7 +85,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_7"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -94,7 +94,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_8"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -103,7 +103,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_9"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -112,7 +112,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_multiply"
-                style="@style/CalculatorButton.Orange"
+                style="?attr/materialButtonStyle3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -121,7 +121,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_4"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -130,7 +130,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_5"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -139,7 +139,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_6"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -148,7 +148,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_minus"
-                style="@style/CalculatorButton.Orange"
+                style="?attr/materialButtonStyle3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -157,7 +157,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_1"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -166,7 +166,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_2"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -175,7 +175,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_3"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -184,7 +184,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_plus"
-                style="@style/CalculatorButton.Orange"
+                style="?attr/materialButtonStyle3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -193,7 +193,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_0"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnSpan="2"
@@ -203,7 +203,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_dot"
-                style="@style/CalculatorButton.GrayTwo"
+                style="?attr/materialButtonStyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -212,7 +212,7 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/button_equals"
-                style="@style/CalculatorButton.Orange"
+                style="?attr/materialButtonStyle3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
@@ -223,4 +223,14 @@
 
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:id="@+id/select_theme"
+        style="?attr/materialButtonStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/card_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
