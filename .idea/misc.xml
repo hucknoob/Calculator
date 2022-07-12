@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/drawable/button.xml" value="0.1" />
+        <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1" />
         <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/drawable/rectangle.xml" value="0.1015" />
         <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/drawable/roundedbutton.xml" value="0.1" />
-        <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout-land/activity_calculator.xml" value="0.14666666666666667" />
+        <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout-land/activity_calculator.xml" value="0.6" />
         <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout/activity_calculator.xml" value="0.14705882352941177" />
         <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout/activity_select_theme.xml" value="0.1" />
+        <entry key="..\:/Study/GeekBrains/AndroidCore/calculator/app/src/main/res/layout/item_theme.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="calculatorBackground"
-        format="reference"/>
+    <attr name="calculatorBackground" format="reference" />
+    <attr name="materialButtonStyle1" format="reference" />
+    <attr name="materialButtonStyle2" format="reference" />
+    <attr name="materialButtonStyle3" format="reference" />
+    <attr name="materialButtonStyleLand1" format="reference" />
+    <attr name="materialButtonStyleLand2" format="reference" />
+    <attr name="materialButtonStyleLand3" format="reference" />
 </resources>

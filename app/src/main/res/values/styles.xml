@@ -45,4 +45,25 @@
         <item name="android:textSize">@dimen/text_size_button_land</item>
     </style>
 
+
+    <style name="CalculatorButton.Orange.V2">
+        <item name="backgroundTint">@color/red</item>
+    </style>
+
+    <style name="CalculatorButton.Orange.Land.V2">
+        <item name="backgroundTint">@color/red</item>
+        <item name="android:textSize">@dimen/text_size_button_land</item>
+    </style>
+
+
+    <style name="CalculatorButton.Orange.V3">
+        <item name="backgroundTint">@color/purple_700</item>
+    </style>
+
+    <style name="CalculatorButton.Orange.Land.V3">
+        <item name="backgroundTint">@color/purple_700</item>
+        <item name="android:textSize">@dimen/text_size_button_land</item>
+    </style>
+
+
 </resources>
